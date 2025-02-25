@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Track Order - Aasim Brothers Construction</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Aasim Brothers Construction</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="order.html">Order Materials</a></li>
+                <li><a href="equipment.html">Rent Equipment</a></li>
+                <li><a href="quotes.html">Request Quotes</a></li>
+                <li><a href="track.html">Track Order</a></li>
+                <li><a href="payment.html">Payment</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="track-order">
+            <h2>Track Your Order</h2>
+            <p>Enter your tracking number to check the status of your order.</p>
+            <input type="text" id="trackingNumber" placeholder="Enter Tracking Number">
+            <button onclick="trackOrder()">Track Order</button>
+            <div id="trackingStatus"></div>
+            <div id="progressBarContainer">
+                <div id="progressBar"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Aasim Brothers Construction. All rights reserved.</p>
+    </footer>
+</body>
+</html>
